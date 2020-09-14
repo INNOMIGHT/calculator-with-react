@@ -1,0 +1,47 @@
+.calc-body{
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+}
+h1 {
+    font-family: courier;
+    text-align: center;
+    font-weight: 100;
+    font-size: 6rem;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+    text-decoration: none;
+}
+
+.keypad-button{
+    text-align: center;
+    margin: auto;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    margin: 3px 3px 3px 3px;
+    border: none;
+    background-color: cadetblue;
+    font-size: 15px;
+}
+
+.resultBox{
+    height: 40px;
+    width: 750px;
+    border: 2px solid cadetblue;
+    font-family: courier;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+p{
+    font-weight: bolder;
+    font-family: courier;
+
+}
